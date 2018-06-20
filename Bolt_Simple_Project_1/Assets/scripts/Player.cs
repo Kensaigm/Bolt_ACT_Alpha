@@ -31,20 +31,20 @@ public class Player : MonoBehaviour {
 
 	}
 
-	List<GameObject> getHand()
-	{
-		List<GameObject> Children;
+	//List<GameObject> getHand()
+	//{
+	//	List<GameObject> Children;
 
-		foreach (Transform child in transform)
-		{
-			if (child.tag == "Player")
-			{
-				Children.Add(child);
-			}
-		}
+	//	foreach (Transform child in transform)
+	//	{
+	//		if (child.tag == "Player")
+	//		{
+	//			Children.Add(child);
+	//		}
+	//	}
 
-		return Children;
-	}
+	//	return Children;
+	//}
 
 	void getDeck()
 	{
